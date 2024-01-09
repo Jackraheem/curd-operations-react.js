@@ -1,0 +1,82 @@
+.Model-container{
+    position: fixed;
+    z-index: 1;
+    left:0;
+    top:0;
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.4);
+
+}
+.Model{
+    border-radius: 5px;
+    padding: 2rem;
+    background-color: white;
+    width:25em;
+
+}
+input{
+    height: 25px;
+    width: 60%;
+    border:2px solid black;
+    border-radius: 15px;
+
+
+
+}
+.lo{
+    height: 35px;
+    width: 70%;
+    border-radius: none;
+}
+select{
+    height:30px;
+    width:55%;
+
+}
+#sub{
+    height: 40px;
+    width: 30%;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    margin-top:30px;
+    margin-left: 200px;
+    box-shadow: 4px 8px 16px rgba(0,0,0,0.4);
+}
+.btn{
+    /* height: 2.5rem;
+    width: 90px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    cursor:pointer;
+    background-color: blue;
+    border: none;
+    /* border-radius: 15px; */
+    /* box-shadow: 4px 9px 17px blanchedalmond; */
+    height: 400px;
+    padding: 15px 15px 15px 15px;
+    width: 5%;
+    margin-left: -45px;
+    font-size: 1rem;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    margin-top:30px;
+    margin-left: 200px;
+    box-shadow: 4px 8px 16px rgba(0,0,0,0.4);
+
+}
+.err{
+    background-color: #f8d7da;
+    color: red;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+}
+
